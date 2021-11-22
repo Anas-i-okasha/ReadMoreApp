@@ -1,0 +1,17 @@
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+    padding: 0.5em;
+
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 4em;
+}
+.list-item li{
+    color: white;
+}
