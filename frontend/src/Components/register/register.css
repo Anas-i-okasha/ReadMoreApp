@@ -1,0 +1,12 @@
+.main-reg{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-reg{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

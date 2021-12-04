@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
- function Articles() {
-    return (
-        <div>
-            create new Articles
-        </div>
-    )
+ class Articles extends Component {
+    render() {
+        return (
+            <div>
+                Anas articles
+            </div>
+        )
+    }
 }
 
 export default Articles
+

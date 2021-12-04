@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 
- function Home() {
-    return (
-        <div>
-           Anas Home 
-        </div>
-    )
+ class Home extends Component {
+    render() {
+        return (
+            <div>
+                Anas Home
+                <p>Lorem </p>
+            </div>
+        )
+    }
 }
 
-export default Home
+export default Home;
+
 
