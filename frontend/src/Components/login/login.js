@@ -5,20 +5,18 @@ import './login.css'
     render() {
         return (
             <div className="main-log">
-                <div>
-                    <h2>Login</h2>
-                </div>
-                <div className="main-div">
-                    <input placeholder="Enter your Email??" />
-                    <input placeholder="Enter your password??"/>
-                    <button>Login</button>
-                </div>
-                <div>
-                 <Link to="/register">Register</Link>  
-                </div>
-            </div>
+                <h2>Login </h2>
+    <div>
+      <label for="fname">Email</label>
+    <input type="text"   placeholder="Enter your Email..."/>
+    <label for="lname">password</label>
+    <input type="password" placeholder="Your password..."/>
+    <button>login</button>
+    </div>
+    <Link to="/register">Register</Link>
+</div>
         )
     }
 }
 
-export default Login
+export default Login;

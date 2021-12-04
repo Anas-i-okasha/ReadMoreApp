@@ -6,15 +6,18 @@ import './register.css';
     render() {
         return (
             <div className="main-reg">
-                <div>
                     <h2>Register</h2>
-                </div>
-                <div className= "sub-reg">
-                    <input placeholder="Enter your Full Name??" />
-                    <input placeholder="Enter your Email? " />
-                    <input placeholder="Enter your password?" />
+                <form className="sub-reg">
+                    <div>
+                    <label> Full Name</label>
+                    <input type="text" placeholder="Enter your Full Name.." />
+                    <label>Email </label>
+                    <input type="text" placeholder="Enter your Email.. " />
+                    <label>Password </label>
+                    <input type="password" placeholder="Enter your password.." />
                     <button>Register</button>
-                </div>
+                    </div>
+                </form>
                 <div>
                     <Link to="/login">Login</Link>
                 </div>
